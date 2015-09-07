@@ -5,9 +5,10 @@ description: > # this means to ignore newlines until "baseurl:"
   This blog is a collection of tutorials aimed at exploring the features of open source bpm and cmmn products like camunda,activi,jbpm etc. This site complements the existing documentation of these products by providing short,concise and easy to use tutorials with the intend of developing a community network around the products. The intended audience is mostly developers who are interested in building application using these open source products.   
 baseurl: /blogs
 exclude: ['README.md']
+comments: true
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: gopancd
 github_username:  sgopan
-
+comments: false
 # Build settings
 markdown: kramdown
